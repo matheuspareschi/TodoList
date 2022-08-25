@@ -1,0 +1,75 @@
+.listCard__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  background: #8d99ae4d;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 14rem;
+  height: 20rem;
+  justify-content: flex-start;
+  overflow: auto;
+  scrollbar-width: 1px;
+}
+
+.listCard__container__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.listCard__name {
+  color: #2b2d42;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  overflow-wrap: break-word;
+  width: 80%;
+}
+
+.listCard__deleteButton {
+  background: none;
+}
+
+.addTask__container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.addTask__input {
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 16px;
+  width: 90%;
+}
+
+.addTask__button {
+  padding: 0.4rem;
+  background: #b80422;
+  border-radius: 10px;
+  margin: 0.3rem;
+  color: #edf2f4;
+  width: 4rem;
+  align-items: CENTER;
+  display: FLEX;
+  justify-content: SPACE-BETWEEN;
+}
+
+.empityTask__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.empityTask__text {
+  font-weight: 800;
+  color: #2b2d42;
+}

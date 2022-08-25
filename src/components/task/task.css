@@ -1,0 +1,18 @@
+.task__continer {
+  padding: 0.3rem;
+  margin-bottom: 0.3REM;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  BORDER-BOTTOM: 1px solid;
+  scrollbar-width: 1px;
+  overflow: initial;
+  scroll-behavior: smooth;
+  width: 95%;
+}
+
+.task__name {
+  margin: 0.3rem;
+  overflow-wrap: break-word;
+  width: 70%;
+}
